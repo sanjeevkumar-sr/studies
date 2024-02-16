@@ -10,7 +10,6 @@ this file containes yaml file for ansible automation
           name: git
           version: 1.2
           state: present
-# Clone a GitHub repository
     - name: Clone a GitHub repository
         git:
           repo: <github url>
@@ -29,7 +28,6 @@ this file containes yaml file for ansible automation
         name: httpd
         state: started
         enabled: yes
-# Copy the index.html file to the httpd deployment path
   - name: Copy the index.html file to the httpd deployment path
       copy:
         src: /path/to/temp/directory/index.html
