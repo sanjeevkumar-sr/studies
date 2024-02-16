@@ -42,3 +42,6 @@ this file containes yaml file for ansible automation
         service:
           name: httpd
           state: restarted
+
+![1 4 Kubernetes Architecture](https://github.com/sanjeevkumar-sr/studies/assets/108890603/0256d651-b2a9-4ab3-a23f-763209dff93a)
+
